@@ -150,10 +150,3 @@ notepad .env
 - [ ] User authentication
 - [ ] Payment system
 
-## 📄 License
-
-MIT
-
----
-
-**Made with ❤️ for 3D creators**
