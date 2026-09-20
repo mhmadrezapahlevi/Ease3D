@@ -1,58 +1,60 @@
 # 🎨 Ease3D - Tripo AI Integration
 
-Platform AI 3D Generation dengan integrasi **Tripo AI** yang sudah berfungsi!
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## ✨ Fitur
+AI 3D Generation Platform with a **fully working Tripo AI** integration!
 
-- ✅ **Text to 3D** - Generate 3D model dari deskripsi teks
-- ✅ **Image to 3D** - Generate 3D model dari gambar
-- ✅ **Multiple Model Versions** - v3.1, P1 (low-poly), v3.0
-- ✅ **PBR Textures** - Material berbasis fisika
-- ✅ **Real-time Preview** - Lihat progress generation
-- ✅ **3D Viewer** - Preview model 3D langsung di browser
-- ✅ **GLB Download** - Download model dalam format GLB
+## ✨ Features
+
+- ✅ **Text to 3D** — Generate 3D models from text prompts
+- ✅ **Image to 3D** — Generate 3D models from images
+- ✅ **Multiple Model Versions** — v3.1, P1 (low-poly), v3.0
+- ✅ **PBR Textures** — Physically-based materials
+- ✅ **Real-time Preview** — Watch generation progress live
+- ✅ **3D Viewer** — Preview 3D models directly in the browser
+- ✅ **GLB Download** — Download models in GLB format
 
 ## 🚀 Quick Start
 
 ### 1. Setup Backend
 
 ```powershell
-# Masuk ke folder server
+# Navigate to the server folder
 cd server
 
 # Install dependencies
 npm install
 
-# File .env sudah ada dengan API key Anda
-# Jika belum, buat dengan: notepad .env
-# Isi: TRIPO_API_KEY=tsk_YOUR_API_KEY_HERE
+# The .env file already contains your API key
+# If not, create it with: notepad .env
+# Add: TRIPO_API_KEY=tsk_YOUR_API_KEY_HERE
 
-# Start backend server
+# Start the backend server
 npm start
 ```
 
-### 2. Setup Frontend (Terminal Baru)
+### 2. Setup Frontend (New Terminal)
 
 ```powershell
-# Di root folder project
+# From the project root folder
 npm install
 npm run dev
 ```
 
-### 3. Buka Browser
+### 3. Open the Browser
 
-Buka http://localhost:5173 dan klik menu **"Tripo AI"**
+Go to http://localhost:5173 and click the **"Tripo AI"** menu.
 
-## 📖 Dokumentasi Lengkap
+## 📖 Full Documentation
 
-Lihat [TRIPO_SETUP.md](./TRIPO_SETUP.md) untuk panduan lengkap.
+See [TRIPO_SETUP.md](./TRIPO_SETUP.md) for the complete guide.
 
-## 🔗 Link Penting Tripo AI
+## 🔗 Important Tripo AI Links
 
-| Tujuan | Link |
-|--------|------|
+| Purpose | Link |
+|---------|------|
 | 🔑 **API Keys** | **https://platform.tripo3d.ai/api-keys** |
-| 📖 Dokumentasi | https://platform.tripo3d.ai/docs |
+| 📖 Documentation | https://platform.tripo3d.ai/docs |
 | 💰 Pricing | https://platform.tripo3d.ai/docs/billing |
 
 ## 🛠️ Tech Stack
@@ -70,29 +72,29 @@ Lihat [TRIPO_SETUP.md](./TRIPO_SETUP.md) untuk panduan lengkap.
 - Multer (file upload)
 - Form-Data (multipart upload)
 
-## 🎯 Cara Menggunakan
+## 🎯 How to Use
 
 ### Text to 3D
-1. Klik menu "Tripo AI"
-2. Pilih tab "Text to 3D"
-3. Masukkan deskripsi (contoh: "A medieval castle")
-4. Pilih model version dan settings
-5. Klik "Generate 3D Model"
-6. Download hasil GLB
+1. Click the "Tripo AI" menu
+2. Select the "Text to 3D" tab
+3. Enter a description (e.g., "A medieval castle")
+4. Choose a model version and settings
+5. Click "Generate 3D Model"
+6. Download the resulting GLB file
 
 ### Image to 3D
-1. Klik menu "Tripo AI"
-2. Pilih tab "Image to 3D"
-3. Upload gambar (JPG, PNG, WebP, max 20MB)
-4. Pilih model version dan settings
-5. Klik "Generate 3D Model"
-6. Download hasil GLB
+1. Click the "Tripo AI" menu
+2. Select the "Image to 3D" tab
+3. Upload an image (JPG, PNG, WebP, max 20MB)
+4. Choose a model version and settings
+5. Click "Generate 3D Model"
+6. Download the resulting GLB file
 
-## ⚠️ Penting
+## ⚠️ Important
 
-- **Model URLs expire after 5 minutes** - Download segera setelah generate
-- **Backend harus running** - Jangan tutup terminal backend
-- **API key sudah dikonfigurasi** - Di file `server/.env`
+- **Model URLs expire after 5 minutes** — Download immediately after generation
+- **Backend must be running** — Do not close the backend terminal
+- **API key is already configured** — In the `server/.env` file
 
 ## 📁 Project Structure
 
@@ -116,7 +118,7 @@ ease3d/
 
 ## 🔧 Troubleshooting
 
-### Backend tidak connect?
+### Backend not connecting?
 ```powershell
 cd server
 npm start
@@ -124,15 +126,15 @@ npm start
 
 ### API key invalid?
 ```powershell
-# Edit file server/.env
+# Edit the server/.env file
 notepad .env
-# Pastikan TRIPO_API_KEY sudah benar
+# Make sure TRIPO_API_KEY is correct
 ```
 
 ### Generation failed?
-- Check koneksi internet
-- Check credit balance di Tripo dashboard
-- Check console backend untuk error
+- Check your internet connection
+- Check your credit balance on the Tripo dashboard
+- Check the backend console for errors
 
 ## 📚 Resources
 
@@ -150,6 +152,8 @@ notepad .env
 - [ ] User authentication
 - [ ] Payment system
 
-# Ease3D
+## 📄 License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
+```
+
